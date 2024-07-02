@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+print(int((b - d) * a / (c - d)), int(a - (b - d) * a / (c - d)))
